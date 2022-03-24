@@ -1,7 +1,7 @@
 import { name, age } from './msg';
 
-
-
+import plugins from 'virtual-module'
+console.log(plugins)
 function getage () {
   // console.log(age)
 }

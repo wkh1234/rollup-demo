@@ -2,6 +2,9 @@
 
 var name = 'name';
 
+var plugins = "This is virtual!";
+
+console.log(plugins);
 // getage()
 console.log(name);
 

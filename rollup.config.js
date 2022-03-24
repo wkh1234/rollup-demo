@@ -1,4 +1,5 @@
 import json from 'rollup-plugin-json';
+import myExample from './rollup-plugin-my-example.js';
 
 
 
@@ -9,5 +10,5 @@ export default {
     format: 'cjs', // 输出格式 amd es6 cjs iife umd 等
     name: 'bundleName' // 如果是iife umd 需要指定一个全局变量
   },
-  plugins: [ json() ]
+  plugins: [ json(), myExample() ]
 };
